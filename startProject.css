@@ -6,6 +6,7 @@ body {
     text-shadow: none;
     background: #fed136;
 }
+
 .navbar {
     position: absolute;
   }
@@ -113,6 +114,17 @@ p{
 .portfolio-hover-content{
     margin-top:-12px;
 }
+#services .container .row .col-md-4 >div{
+display: inline-block;
+width:112px;
+height:112px;
+font-family: iconfont;
+font-size: 60px;
+line-height: 120px;
+color:#fff;
+background: #fed136;
+border-radius: 50px;
+}
 #portfolio * {
     z-index: 2;
 }
@@ -153,6 +165,7 @@ p{
     background-color: #fff;
     padding:25px;
 }
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover{
     background:#fed136 ;
     position: absolute;
@@ -161,6 +174,11 @@ p{
     opacity: 0;
     -webkit-transition: all ease .5s;
 }
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 0.7;
+}
+
 .portfolio-caption h4{
     text-transform: none;
     margin: 0;
